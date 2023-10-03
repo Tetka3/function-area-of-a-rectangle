@@ -1,0 +1,8 @@
+def rectangle():
+    print('Enter length ')
+    m = int(input())
+    print('Enter width ')
+    n = int(input())
+    return m*n 
+area = rectangle()
+print(area)  
